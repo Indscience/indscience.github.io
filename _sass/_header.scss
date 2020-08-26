@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-.header {
+.site-header {
     border-top: 0px solid $grey-color-dark;
 	border-bottom: 4px solid $clemson-purple;
     min-height: 45px;
@@ -13,32 +13,14 @@
 
 }
 
-.site-title {
-    font-size: 26px;
-/* 		margin-top: 15px;
-    line-height: 40px; */
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
-    color: #ffffff;
-    &,
-    &:visited {
-        color: #ffffff;
-    }
-    &,
-    &:hover {
-	text-decoration: none;
-}
-}
+
 
 .site-header .wrapper {
 	padding-top: 20px;
 	position: relative;
 }
 
-.header a {
+.site-header a {
   display: inline-block;
   color: white;
   text-align: center;
