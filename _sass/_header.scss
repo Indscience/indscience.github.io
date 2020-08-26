@@ -17,21 +17,11 @@
     line-height: 40px; */
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
     font-weight: 500;
 		font-family: 'Titillium Web', sans-serif;
-    color: #ffffff;
-    &,
-    &:visited {
-        color: #ffffff;
-    }
-    &,
-    &:hover {
-	text-decoration: none;
-}
-}
-
-.site-header .wrapper {
-	padding-top: 20px;
-	position: relative;
-}
+   
