@@ -7,8 +7,8 @@
     // Positioning context for the mobile navigation icon
     position: sticky;
    white-space: nowrap;
-   overflow: auto;
-
+   overflow-y: hidden;
+   overflow-x: scroll;
 }
 
 .web {
