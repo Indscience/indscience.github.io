@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /categories/physics
+permalink: /physics
 title: Categories
 ---
 
