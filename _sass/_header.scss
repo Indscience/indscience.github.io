@@ -99,7 +99,7 @@ body {
 
 .container .navbar ul li a {
   text-decoration: none;
-  color: #999999;
+  color: white;
   font-size: 14px;
   text-transform: uppercase;
   display: block;
@@ -110,8 +110,8 @@ body {
 }
 
 .container .navbar ul li a:hover {
-  color: #ffffff;
-  background-color: rgba(23, 23, 23, 0.9);
+  color: #333333;
+  background-color: white;
 }
 
 .container .navbar ul .close {
@@ -144,7 +144,7 @@ body {
 }
 
 .container .navbar .icon-bar i {
-  background-color: #ffffff;
+  background-color: blue;
   height: 2px;
 }
 
