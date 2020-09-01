@@ -3,7 +3,7 @@ title: Why Conservative Politicians Don’t Like Political Science
 author: steve
 layout: post
 categories:
-  - Political Science
+  - history
 tags:
   - Congress
   - NSF
