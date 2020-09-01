@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<ul id="archive">
+<ul class="archive" style="display:flex">
 {% for post in site.posts %}
  
 
@@ -13,8 +13,10 @@ layout: default
 
 	<img class="img-post" src="{{post.image}}" width="80px;" height="80px">
 {% endif %}
-
+<div class="post-title">
 <span class="title" style="font-size:13px;font-weight:800;font-family:Roboto serif;display:inline-block;margin-left:30px;margin-top:20px"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
+<div>
+
 <span class = "postlower">
 
 <!--<strong>Author:</strong> {{post.author}} -->
