@@ -10,9 +10,7 @@ title: Categories
  
 <ul id="archive">
 <li class="archiveposturl"><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
-<span class = "postlower">
 </li>
-
 </ul>
 
 {% endfor %}
