@@ -5,12 +5,16 @@ layout: default
 <ul id="archive">
 {% for post in site.posts %}
  
+
+
+<li class="archiveposturl">
+
 {% if post.image %}
 
 	<img class="img-post" src="{{post.image}}" width="80px;" height="80px">
 {% endif %}
 
-<li class="archiveposturl"><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
+<span class="title" style="font-size:13px;font-weight:800;font-family:Roboto serif;display:inline-block;margin-left:30px;margin-top:20px"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
 <span class = "postlower">
 
 <!--<strong>Author:</strong> {{post.author}} -->
@@ -28,5 +32,6 @@ layout: default
 {% endfor %}
 </ul>
 
-
+<span ">
+	{{post.title}}</span>
 	
