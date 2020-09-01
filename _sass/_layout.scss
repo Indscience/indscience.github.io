@@ -188,9 +188,9 @@ ul.listing li.listing-item a {
 
 ul#archive {
        list-style-type: none;
-       margin: 0 0 1em 0;
+       margin: 0 0 0.5em 0;
        padding: 0;
-       display: flex;
+       width:auto;
 }
 
 ul#archive li {
