@@ -2,28 +2,23 @@
 layout: default
 ---
 
+
+
 <ul id="archive">
 {% for post in site.posts %}
- 
-
-
-<li class="archiveposturl">
-
-{% if post.image %}
-
-	<img class="img-post" src="{{ post.image }}" width="80px;" height="80px">
-{% endif %}
-<div class="post-title">
-<span class="title" style="font-size:13px;font-weight:800;font-family:Roboto serif;display:inline-block;margin-left:30px;margin-top:20px"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
-<div>
-
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <h2 class="blogyear">{{ y}}</h2>
+  {% endif %}
+<li class="archiveposturl"><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
 <span class = "postlower">
 
 <!--<strong>Author:</strong> {{post.author}} -->
 <strong>Category:</strong>  {% if post.categories %}
  
   {% for cat in post.categories %}
-  <a href="/{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 
 {% endif %} <!-- {{ post.categories | first }} -->
@@ -33,7 +28,3 @@ layout: default
 </li>
 {% endfor %}
 </ul>
-
-<span ">
-	{{post.title}}</span>
-	
