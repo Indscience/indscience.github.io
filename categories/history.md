@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /categories/history
+permalink: /history
 title: Categories
 ---
 
