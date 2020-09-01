@@ -14,7 +14,7 @@ layout: default
 <strong>Category:</strong>  {% if post.categories %}
  
   {% for cat in post.categories %}
-  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a href="/{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 
 {% endif %} <!-- {{ post.categories | first }} -->
