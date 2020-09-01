@@ -20,3 +20,4 @@ title: Categories
 
 {% endfor %}
 
+</ul>
