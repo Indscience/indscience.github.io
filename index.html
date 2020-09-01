@@ -4,16 +4,11 @@ layout: default
 
 <article class="blog-post" style="width=100%;border-top:1px solid #eee;border-bottom:1px solid #eee;display:flex;margin-top:50px;">
 
-<div class="post-image">
 {% if post.image %}
-
 
 	<img class="img-post" src="{{post.image}}" width="80px;" height="80px">
 {% endif %}
 
-</div>
-
-<div class="post-title">
 	<span class="title" style="font-size:13px;font-weight:800;font-family:Roboto serif;display:inline-block;margin-left:30px;margin-top:20px;">
 	{{post.title}}</span>
 	
@@ -27,6 +22,6 @@ layout: default
 <strong style="font-size:100%; font-family: 'Titillium Web', sans-serif; float:right; padding-right: .5em">{{ post.date | date: '%d %b %Y' }}</strong> 
 </span> 
 	
-</div>
+
 
 </article>
