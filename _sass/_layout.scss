@@ -111,7 +111,7 @@ h1 /* .post-title */ {
 /*    font-size: 42px; */
     letter-spacing: px;
     line-height: 1;
-		font-family: 'Saira', sans-serif;
+		font-family: $base-font-family;
 		color: $clemson-purple;
 
     @include media-query($on-laptop) {
@@ -123,7 +123,7 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Saira', sans-serif;
+		font-family: $base-font-family;
 	font-weight: 500;
 /*        font-size: 32px; */
 
@@ -165,7 +165,7 @@ ul.listing {
 ul.listing li.listing-seperator {
 	padding-top: 15px;
 	font-weight: bold;
-	font-family: 'Saira', sans-serif;
+	font-family: $base-font-family;
 	font-size: 1.17em;
 }
 
@@ -180,7 +180,7 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
 	color: $clemson-purple;
 	font-weight: 400;
-	font-family: 'Saira', sans-serif;
+	font-family: $base-font-family;
 }
 
 /*------ archive type stuff ------ */
@@ -221,7 +221,7 @@ ul#archive li.alt {
 ul#archive li span a {
        color: $clemson-purple;
 	font-weight: bold;
-font-family: 'Saira', sans-serif;
+font-family: $base-font-family;
 }
 
 
@@ -233,7 +233,7 @@ ul#archive li span.postlower {
 ul#archive li span.postlower a {
 	color: #07c;
 	font-weight: normal;
-	font-family: 'Saira', sans-serif;
+	font-family: $base-font-family;
 
 }
 
