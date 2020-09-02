@@ -125,7 +125,7 @@ h1 /* .post-title */ {
     h2 {
 		font-family: $base-font-family;
 	font-weight: 500;
-       font-size: 20px; 
+       font-size: 22px; 
 
         @include media-query($on-laptop) {
 /*            font-size: 28px; */
