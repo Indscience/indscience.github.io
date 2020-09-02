@@ -123,10 +123,10 @@ h1  .post-title  {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: $base-font-family;
+font-family: $base-font-family;
 	font-weight: 500;
-       font-size: 22px; 
-
+       font-size: 18px;
+       margin: 7px;
         @include media-query($on-laptop) {
 /*            font-size: 28px; */
         }
