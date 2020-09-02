@@ -1,12 +1,7 @@
 
-<h1 style= "font-color: #0079C6; font-size:90px">
-We Are coming soon 
-
-</h1>
 
 
 
-<!--
 ---
 layout: default
 ---
@@ -16,7 +11,7 @@ layout: default
 <ul id="archive">
 {% for post in site.posts %}
   
-<li class="archiveposturl"><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span><br/>
+<li class="archiveposturl"><h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2><br/>
 <span class = "postlower">
 
 <!--<strong>Author:</strong> {{post.author}} -->
@@ -33,4 +28,3 @@ layout: default
 </li>
 {% endfor %}
 </ul>
--->
