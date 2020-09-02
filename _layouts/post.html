@@ -9,7 +9,7 @@ layout: default
 {% if page.categories %}
   in
   {% for cat in page.categories %}
-  <a href="/categories/{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a href="/{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 
 {% endif %}
@@ -24,7 +24,7 @@ layout: default
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'svmiller';
+    var disqus_shortname = 'indiaviewpoint';
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
