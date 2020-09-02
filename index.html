@@ -7,6 +7,13 @@ layout: default
 <ul id="archive">
 {% for post in site.posts %}
   
+{% if post.image %}
+
+
+	<img class="img-post" src="images/{{post.image}}" width="80px;" height="80px">
+{% endif %}
+
+
 <li class="archiveposturl"><h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2><br/>
 <span class = "postlower">
 
